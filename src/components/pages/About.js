@@ -25,7 +25,7 @@ export default function About() {
           </p>
           <br />
         </section>
-        <a href="../index.html">
+        <a href="#home" onClick={() => handlePageChange("Home")}>
           <button>Back to home page</button>
         </a>
       </body>
