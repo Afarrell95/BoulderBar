@@ -9,7 +9,7 @@ export default function About() {
           <h1>Hello! My name is Allison.</h1>
         </header>
 
-        <div class="head-shot">
+        <div className="head-shot">
           <img src="../img/headshot2.jpg" alt="Allison's headshot image" />
         </div>
         <section>

@@ -1,26 +1,10 @@
 import React, { useState } from "react";
-import Home from "./pages/Home";
+import Projects from "./pages/Projects";
 import About from "./pages/About";
-import Blog from "./pages/Blog";
 import Contact from "./pages/Contact";
-import "./PortfolioContainer.css";
+import "./Home.css";
 
-export default function PortfolioContainer() {
-  const [currentPage, setCurrentPage] = useState("Home");
-
-  // TODO: Add a comment describing the functionality of this method
-  const renderPage = () => {
-    if (currentPage === "Home") {
-      return <Home />;
-    }
-    if (currentPage === "About") {
-      return <About />;
-    }
-    return <Contact />;
-  };
-
-  const handlePageChange = (page) => setCurrentPage(page);
-
+function Home({ currentPage, handlePageChange }) {
   return (
     <div>
       <body>
@@ -52,22 +36,22 @@ export default function PortfolioContainer() {
         </section>
         <div className="card-group">
           <div className="card">
-            <a href="#about" onClick={() => handlePageChange("About")}>
+            <a href="#contact" onClick={() => handlePageChange("Contact")}>
               <h3>Contact </h3>
             </a>
           </div>
           <div className="card">
-            <a href="./htmls/resume.html">
+            <a href="">
               <h3>Resume</h3>
             </a>
           </div>
           <div className="card">
-            <a href="./htmls/projects.html">
+            <a href="#projects" onClick={() => handlePageChange("Projects")}>
               <h3>Projects</h3>
             </a>
           </div>
           <div className="card">
-            <a href="./htmls/about.html">
+            <a href="#about" onClick={() => handlePageChange("About")}>
               <h3>About Me</h3>
             </a>
           </div>
@@ -76,3 +60,5 @@ export default function PortfolioContainer() {
     </div>
   );
 }
+
+export default Home;

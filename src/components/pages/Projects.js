@@ -10,8 +10,8 @@ export default function Home() {
           <h1>Some of my work</h1>
         </header>
 
-        <section class="proj-container">
-          <div class="proj">
+        <section className="proj-container">
+          <div className="proj">
             <a
               target="_blank"
               href="https://codepen.io/farrella95/full/VwXdXoJ"
@@ -19,12 +19,12 @@ export default function Home() {
               NASA API
             </a>
           </div>
-          <div class="proj">
+          <div className="proj">
             <a target="_blank" href="https://ecbl.netlify.app/">
               Climbing Gym Website
             </a>
           </div>
-          <div class="proj">
+          <div className="proj">
             <a
               target="_blank"
               href="https://chattastic-rat.herokuapp.com/login"
@@ -32,7 +32,7 @@ export default function Home() {
               Chattastic Chatroom App
             </a>
           </div>
-          <div class="proj"></div>
+          <div className="proj"></div>
         </section>
 
         <a href="#home" onClick={() => handlePageChange("Home")}>
