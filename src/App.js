@@ -1,6 +1,7 @@
 import React from "react";
-import Home from "./components/Home";
 
-const App = () => <Home />;
+import PortfolioContainer from "./components/PortfolioContainer";
+
+const App = () => <PortfolioContainer />;
 
 export default App;

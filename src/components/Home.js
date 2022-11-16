@@ -1,8 +1,9 @@
-import React, { useState } from "react";
 import Projects from "./pages/Projects";
+import PortfolioContainer from "./PortfolioContainer";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
 import "./Home.css";
+import { Link } from "react-router-dom";
 
 function Home({ currentPage, handlePageChange }) {
   return (
@@ -36,22 +37,43 @@ function Home({ currentPage, handlePageChange }) {
         </section>
         <div className="card-group">
           <div className="card">
-            <a href="#contact" onClick={() => handlePageChange("Contact")}>
-              <h3>Contact </h3>
+            <a
+              href="#contact"
+              onClick={() => handlePageChange("Contact")}
+              className={
+                currentPage === "Contact" ? "nav-link active" : "nav-link"
+              }
+            >
+              <h3>Contact</h3>
             </a>
           </div>
           <div className="card">
-            <a href="">
+            <a
+              target="_blank"
+              href="https://docs.google.com/document/d/1PoEu46Yxph18CXV-_X-D_4CKP2a7Yy3pchmHDZC8qQg/edit#heading=h.78rlvk1sif5a"
+            >
               <h3>Resume</h3>
             </a>
           </div>
           <div className="card">
-            <a href="#projects" onClick={() => handlePageChange("Projects")}>
+            <a
+              href="#projects"
+              onClick={() => handlePageChange("Projects")}
+              className={
+                currentPage === "Project" ? "nav-link active" : "nav-link"
+              }
+            >
               <h3>Projects</h3>
             </a>
           </div>
           <div className="card">
-            <a href="#about" onClick={() => handlePageChange("About")}>
+            <a
+              href="#about"
+              onClick={() => handlePageChange("About")}
+              className={
+                currentPage === "About" ? "nav-link active" : "nav-link"
+              }
+            >
               <h3>About Me</h3>
             </a>
           </div>

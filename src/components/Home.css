@@ -1,6 +1,6 @@
 body {
     padding: 0;
-    background-color: #f97aa4
+    background-color: #f97aa4;
 }
 
 .waves {
@@ -16,7 +16,7 @@ body {
     position: relative;
     display: block;
     width: calc(182% + 1.3px);
-    height: 500px;
+    height: 600px;
 }
 
 .waves .shape-fill {
@@ -33,7 +33,7 @@ body {
     display: grid;
     place-items: center;
     margin: auto;
-    transform: translateY(50%);
+    transform: translateY(65%);
 }
 
 .card {

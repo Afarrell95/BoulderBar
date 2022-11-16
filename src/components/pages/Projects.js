@@ -35,7 +35,7 @@ export default function Home() {
           <div className="proj"></div>
         </section>
 
-        <a href="#home" onClick={() => handlePageChange("Home")}>
+        <a>
           <button>Back to home page</button>
         </a>
       </body>

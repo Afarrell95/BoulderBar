@@ -11,7 +11,7 @@ export default function Contact() {
           https://www.linkedin.com/in/allison-farrell-6815a0214/ GitHub:
           https://github.com/Afarrell95
         </section>
-        <a href="#home" onClick={() => handlePageChange("Home")}>
+        <a>
           <button>Back to home page</button>
         </a>
       </body>
