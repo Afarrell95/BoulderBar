@@ -9,13 +9,3 @@ body{
     font-family: poppins, sans-serif;
     
 }
-button {
-    background-color: #FF8DC7;
-    color: rgb(19, 38, 61);
-    border: none;
-    border-radius: 5px;
-    padding: 7px;
-}
-button:hover{
-    border: solid 1px rgb(19, 38, 61);
-}

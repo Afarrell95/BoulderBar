@@ -1,6 +1,6 @@
 body {
     padding: 0;
-    background-color: #f97aa4;
+    background-color: #FF8DC7;
 }
 
 .waves {
@@ -40,7 +40,7 @@ body {
     width: 30vmin;
     border-radius: 1vmin;
     aspect-ratio: 5/7;
-    background-color: #FFDDD2;
+    background-color: #fbefeb;
     box-shadow: 0px 0px 5px 1px rgba(116, 117, 128, 0.66);
     position: absolute;
     transition: transform 800ms cubic-bezier(.05,.43,.25,.95);
@@ -91,6 +91,18 @@ h3{
 
 h3:hover{
     font-size: 33px;
+}
+button {
+    background-color: #ab6bea;
+    color:rgb(19, 38, 61);
+    border: none;
+    border-radius: 5px;
+    padding: 7px;
+}
+
+button:hover{
+    /* border: solid 1px rgb(210, 200, 233); */
+    background-color: #baa7e2;
 }
 
 /* on click */
