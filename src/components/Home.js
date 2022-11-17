@@ -11,6 +11,11 @@ function Home({ currentPage, handlePageChange }) {
   const changeStyle = () => {
     setStyle("hidden");
   };
+  const [styleHome, setStyleHome] = useState("hidden");
+
+  const changeStyleHome = () => {
+    setStyle("card-group");
+  };
   return (
     <div>
       <body>
@@ -83,6 +88,15 @@ function Home({ currentPage, handlePageChange }) {
             </a>
           </div>
         </div>
+        <a
+          href="#home"
+          onClick={() => {
+            handlePageChange("Home");
+            changeStyleHome();
+          }}
+        >
+          <button>Back to home page</button>
+        </a>
       </body>
     </div>
   );

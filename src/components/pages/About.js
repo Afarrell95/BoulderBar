@@ -24,7 +24,7 @@ export default function About() {
         </header>
 
         <div className="head-shot">
-          <img src="../img/headshot2.jpg" alt="Allison's headshot image" />
+          <img src={"./img/headshot2.jpg"} alt="Allison's headshot image" />
         </div>
         <section>
           <p>
@@ -39,9 +39,6 @@ export default function About() {
           </p>
           <br />
         </section>
-        <a>
-          <button>Back to home page</button>
-        </a>
       </body>
     </div>
   );

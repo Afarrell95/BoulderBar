@@ -33,10 +33,6 @@ export default function Home() {
           </div>
           <div className="proj"></div>
         </section>
-
-        <a>
-          <button>Back to home page</button>
-        </a>
       </body>
     </div>
   );
