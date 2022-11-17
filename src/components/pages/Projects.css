@@ -10,7 +10,8 @@
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    transform: translateY(180%);
+    transform: translateY(150%);
+    font-family: poppins,sans-serif;
 }
 
 .proj{
@@ -18,7 +19,7 @@
     width: 23vmin;
     border-radius: 1vmin;
     aspect-ratio: 5/5;
-    background-color: #f4e9f3;
+    background-color: rgba(255,255,255,.6);
     box-shadow: 0px 0px 5px 1px rgba(116, 117, 128, 0.66);
     padding: 20px;
    
@@ -27,6 +28,7 @@
 .proj:hover{
     transition: transform 800ms cubic-bezier(.05,.43,.25,.95);
     transform: translateY(-5%);
+    background-color: rgb(242, 222, 236);
 }
 button {
     position: absolute;

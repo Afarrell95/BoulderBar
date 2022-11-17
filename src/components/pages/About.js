@@ -1,4 +1,5 @@
 import React from "react";
+import "./About.css";
 
 const styles = {
   body: {
@@ -9,6 +10,7 @@ const styles = {
     margin: "auto",
     width: "50%",
     transform: "translateY(100%)",
+    fontFamily: "poppins",
   },
   heading: {
     background: "rgba(255,255,255,.45)",

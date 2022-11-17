@@ -22,14 +22,16 @@ export default function Home() {
             <a target="_blank" href="https://ecbl.netlify.app/">
               <h3>Climbing Gym Website</h3>
             </a>
-            <p>A mock website for a rock climbing gym. </p>
+            <p>
+              A mock website for a rock climbing gym with mobile responsiveness{" "}
+            </p>
           </div>
           <div className="proj">
             <a
               target="_blank"
               href="https://chattastic-rat.herokuapp.com/login"
             >
-              <h3>Chattastic Chatroom App</h3>
+              <h3>Chattastic!</h3>
             </a>
             <p>
               A chatroom website created in a team collaberation. Users are able
