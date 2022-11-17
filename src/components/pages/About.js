@@ -1,11 +1,25 @@
 import React from "react";
-import "./About.css";
+
+const styles = {
+  body: {
+    margin: "auto",
+    background: "#eedbff;",
+  },
+  heading: {
+    background: "#FFB9B9",
+    color: "rgb(19, 38, 61)",
+    fontsize: "1.3rem",
+    width: "100%",
+    height: "15vmin",
+    textalign: "center",
+  },
+};
 
 export default function About() {
   return (
     <div>
-      <body>
-        <header>
+      <body style={styles.body}>
+        <header style={styles.headingheading}>
           <h1>Hello! My name is Allison.</h1>
         </header>
 

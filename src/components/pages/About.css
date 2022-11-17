@@ -4,8 +4,9 @@
     box-sizing: border-box;
 }
 
+
 body{
-    background-color:#FFDDD2;
+    background-color:#eedbff;
     display: grid;
     place-items: center;
     font-family: poppins, sans-serif;

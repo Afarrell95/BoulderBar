@@ -4,7 +4,6 @@ import "./Projects.css";
 export default function Home() {
   return (
     <div>
-      <h1>Home Page</h1>
       <body>
         <header>
           <h1>Some of my work</h1>

@@ -3,9 +3,14 @@ import PortfolioContainer from "./PortfolioContainer";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
 import "./Home.css";
-import { Link } from "react-router-dom";
+import React, { useState, useEffect } from "react";
 
 function Home({ currentPage, handlePageChange }) {
+  const [style, setStyle] = useState("card-group");
+
+  const changeStyle = () => {
+    setStyle("hidden");
+  };
   return (
     <div>
       <body>
@@ -35,14 +40,14 @@ function Home({ currentPage, handlePageChange }) {
             </svg>
           </div>
         </section>
-        <div className="card-group">
+        <div className={style}>
           <div className="card">
             <a
               href="#contact"
-              onClick={() => handlePageChange("Contact")}
-              className={
-                currentPage === "Contact" ? "nav-link active" : "nav-link"
-              }
+              onClick={() => {
+                handlePageChange("Contact");
+                changeStyle();
+              }}
             >
               <h3>Contact</h3>
             </a>
@@ -58,10 +63,10 @@ function Home({ currentPage, handlePageChange }) {
           <div className="card">
             <a
               href="#projects"
-              onClick={() => handlePageChange("Projects")}
-              className={
-                currentPage === "Project" ? "nav-link active" : "nav-link"
-              }
+              onClick={() => {
+                handlePageChange("Projects");
+                changeStyle();
+              }}
             >
               <h3>Projects</h3>
             </a>
@@ -69,10 +74,10 @@ function Home({ currentPage, handlePageChange }) {
           <div className="card">
             <a
               href="#about"
-              onClick={() => handlePageChange("About")}
-              className={
-                currentPage === "About" ? "nav-link active" : "nav-link"
-              }
+              onClick={() => {
+                handlePageChange("About");
+                changeStyle();
+              }}
             >
               <h3>About Me</h3>
             </a>

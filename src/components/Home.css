@@ -92,3 +92,8 @@ h3{
 h3:hover{
     font-size: 33px;
 }
+
+/* on click */
+.hidden{
+    display:none;
+}
