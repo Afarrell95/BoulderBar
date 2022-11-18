@@ -1,5 +1,7 @@
 body {
     padding: 0;
+    margin: 0;
+    box-sizing: border-box;
     background-color: #FF8DC7;
 }
 
@@ -89,20 +91,9 @@ h3{
 }
 
 h3:hover{
-    font-size: 33px;
-}
-button {
-    background-color: #ab6bea;
-    color:rgb(19, 38, 61);
-    border: none;
-    border-radius: 5px;
-    padding: 7px;
+    text-decoration: underline;
 }
 
-button:hover{
-    /* border: solid 1px rgb(210, 200, 233); */
-    background-color: #baa7e2;
-}
 
 /* on click */
 .hidden{
