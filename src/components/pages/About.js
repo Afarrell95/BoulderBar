@@ -17,7 +17,7 @@ const styles = {
     placeItems: "center",
     margin: "auto",
     width: "60%",
-    transform: "translateY(20%)",
+    transform: "translateY(10%)",
     fontFamily: "poppins",
   },
   heading: {

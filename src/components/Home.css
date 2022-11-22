@@ -99,3 +99,15 @@ h3:hover{
 .hidden{
     display:none;
 }
+button {
+    position: absolute;
+    background-color: #7165f0;
+    color: rgb(243, 248, 255);
+    border: none;
+    border-radius: 5px;
+    bottom: 10px;
+}
+
+button:hover{
+    border: solid 1px rgb(19, 38, 61);
+}
