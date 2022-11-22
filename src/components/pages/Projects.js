@@ -39,9 +39,16 @@ export default function Home() {
             </p>
           </div>
           <div className="proj">
-            <a target="_blank" href=""></a>
-            <h3>Need 4th proj</h3>
-            <p>Have yet to find a project to put in this spot</p>
+            <a
+              target="_blank"
+              href="https://afarrell95.github.io/Color-palette-/"
+            >
+              <h3>Color Palette</h3>
+            </a>
+            <p>
+              A simple app where users can gereate a color palette and save ones
+              they like to a library.
+            </p>
           </div>
         </section>
       </body>
