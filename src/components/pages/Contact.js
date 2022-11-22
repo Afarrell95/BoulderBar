@@ -10,6 +10,7 @@ const styles = {
     margin: "auto",
     width: "50%",
     fontFamily: "poppins",
+    boxShadow: "0px 0px 5px 1px rgba(116, 117, 128, 0.66)",
   },
   heading: {
     background: "rgba(255,255,255,.6)",
@@ -51,7 +52,7 @@ export default function Contact() {
           </span>
           <span style={styles.spans}>
             <a target="_blank" href="https://twitter.com/Allison_WebDev">
-              Twitter... until Elon kills it
+              Twitter
             </a>
           </span>
           <span style={styles.spans}>

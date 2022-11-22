@@ -17,8 +17,9 @@ const styles = {
     placeItems: "center",
     margin: "auto",
     width: "60%",
-    transform: "translateY(10%)",
+    transform: "translateY(5%)",
     fontFamily: "poppins",
+    boxShadow: "0px 0px 5px 1px rgba(116, 117, 128, 0.66)",
   },
   heading: {
     background: "rgba(255,255,255,.6)",
