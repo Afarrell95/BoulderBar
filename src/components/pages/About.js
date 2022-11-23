@@ -64,7 +64,7 @@ export default function About() {
           <br />
           <p>
             When I'm not in the gym or with my cat and 3 dogs, I'm on my
-            computer coding responsive and accessable websites and furthuring my
+            computer coding responsive and accessible websites and furthuring my
             Frontend skillset.
           </p>
           <br />
