@@ -3,7 +3,7 @@ import "./Contact.css";
 
 const styles = {
   body: {
-    background: "rgba(255,255,255,.4)",
+    background: "rgba(225, 230, 211, 1)",
     borderRadius: "5px",
     display: "grid",
     placeItems: "center",
@@ -13,16 +13,16 @@ const styles = {
     boxShadow: "0px 0px 5px 1px rgba(116, 117, 128, 0.66)",
   },
   heading: {
-    background: "rgba(255,255,255,.6)",
+    background: "rgba(255,255,255,.8)",
     borderRadius: "5px 5px 0px 0px",
-    color: "navy",
+    color: "#150445",
     fontSize: "20px",
     width: "100%",
     height: "15vmin",
     textalign: "center",
   },
   spans: {
-    color: "navy",
+    color: "#150445",
     fontSize: "20px",
     letterSpacing: "1.5px",
     lineHeight: "2.5",
