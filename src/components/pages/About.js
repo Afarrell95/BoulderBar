@@ -6,12 +6,12 @@ const styles = {
   pic: {
     width: "200px",
     borderRadius: "50%",
-    border: "double rgba(0,31,250,.5) 10px",
+    border: "double #150445 10px",
     transform: "translateY(-9%)",
   },
 
   body: {
-    background: "rgba(255,255,255,.4)",
+    background: "rgba(225, 230, 211, 1)",
     borderRadius: "5px",
     display: "grid",
     placeItems: "center",
@@ -22,17 +22,17 @@ const styles = {
     boxShadow: "0px 0px 5px 1px rgba(116, 117, 128, 0.66)",
   },
   heading: {
-    background: "rgba(255,255,255,.6)",
+    background: "rgba(255,255,255,.8)",
     display: "grid",
     placeItems: "center",
     borderRadius: "5px 5px 0px 0px",
-    color: "navy",
+    color: "#150445",
     fontSize: "20px",
     width: "100%",
     height: "20vmin",
   },
   para: {
-    color: "navy",
+    color: "#150445",
     textIndent: "50px",
     paddingLeft: "20px",
     paddingRight: "20px",
