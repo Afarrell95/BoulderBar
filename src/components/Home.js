@@ -60,7 +60,7 @@ function Home({ currentPage, handlePageChange }) {
           <div className="card">
             <a
               target="_blank"
-              href="https://docs.google.com/document/d/1PoEu46Yxph18CXV-_X-D_4CKP2a7Yy3pchmHDZC8qQg/edit#heading=h.78rlvk1sif5a"
+              href="https://docs.google.com/document/d/e/2PACX-1vQb6b5CAx3bqdh_xeh_xIzhFXQ1xBM4tI-zCTb0HmA9nI48atN3AmcWys3_SxYJF1C0KJ6_TrOZIAzr/pub"
             >
               <h3>Resume</h3>
             </a>
