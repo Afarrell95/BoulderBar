@@ -20,7 +20,7 @@
     width: 20vmin;
     border-radius: 1vmin;
     aspect-ratio: 5/5;
-    background-color: rgba(225, 230, 211, 1);
+    background-color: rgb(251, 255, 240);
     box-shadow: 0px 0px 5px 1px rgba(116, 117, 128, 0.66);
     padding: 20px;
     margin: 20px;
@@ -44,4 +44,43 @@ h3{
 p{
     font-size: 14px;
     margin-top: 10px;
+}
+
+@media (max-width: 1024px){
+
+    .proj-container{
+        width: 70%;
+        display: flex;
+        flex-direction: column;
+        margin:auto;
+        padding:0;
+        position: absolute;
+        font-family: poppins,sans-serif;
+    }
+    
+    .proj{
+        border-radius: 0;
+        width:80%;
+        height:140px;
+        padding: 20px;
+        margin: auto;
+        text-align: center;
+       
+    }
+    h3{
+        font-size: 12px;
+    }
+    
+    p{
+        font-size: 12px;
+        margin-top: 5px;
+    }
+    .proj:hover{
+        transition: none;
+        transform: none;
+        
+    }
+    .proj:active{
+        background-color: rgb(255, 255, 255);
+    }
 }
