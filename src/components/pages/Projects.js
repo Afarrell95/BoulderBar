@@ -7,6 +7,12 @@ export default function Home() {
       <body>
         <section className="proj-container">
           <div className="proj">
+            <a target="_blank" href="https://ecommercegt.herokuapp.com/">
+              <h3>WE E-Commerce</h3>
+            </a>
+            <p>A mock e-commerce website centered around workout equipment</p>
+          </div>
+          <div className="proj">
             <a
               target="_blank"
               href="https://codepen.io/farrella95/full/VwXdXoJ"

@@ -9,6 +9,7 @@
 .proj-container{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-evenly;
     transform: translateY(35%);
     font-family: poppins,sans-serif;
@@ -16,12 +17,13 @@
 
 .proj{
     
-    width: 23vmin;
+    width: 20vmin;
     border-radius: 1vmin;
     aspect-ratio: 5/5;
     background-color: rgba(225, 230, 211, 1);
     box-shadow: 0px 0px 5px 1px rgba(116, 117, 128, 0.66);
     padding: 20px;
+    margin: 20px;
    
 }
 
