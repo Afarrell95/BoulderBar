@@ -17,13 +17,13 @@
 
 .proj{
     
-    width: 20vmin;
+    width: 18%;
     border-radius: 1vmin;
-    aspect-ratio: 5/5;
+    flex-flow: wrap;
     background-color: rgb(251, 255, 240);
     box-shadow: 0px 0px 5px 1px rgba(116, 117, 128, 0.66);
     padding: 20px;
-    margin: 20px;
+    margin: 10px;
    
 }
 
@@ -53,17 +53,20 @@ p{
         display: flex;
         flex-direction: column;
         margin:auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
         padding:0;
-        position: absolute;
+        transform: translateY(0%);
         font-family: poppins,sans-serif;
     }
     
     .proj{
-        border-radius: 0;
-        width:80%;
+        border-radius: 5;
+        width:90%;
         height:140px;
         padding: 20px;
         margin: auto;
+        margin-bottom: 10px;
         text-align: center;
        
     }
