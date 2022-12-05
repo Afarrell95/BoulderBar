@@ -101,7 +101,7 @@ h3:hover{
     display:none;
 }
 button {
-    position: absolute;
+    position:absolute;
     background-color: #e1ae8e;
     color: rgb(243, 248, 255);
     border: none;

@@ -43,6 +43,7 @@
 @media (max-width: 1024px){
     .body{
     margin-top: 40px;
+    transform: translateY(25%);
     }
 
     .head-shot .head-img{
@@ -59,7 +60,8 @@
     }
     .body{
         width: 80%;
-        transform: translateY(0%);
+        transform: translateY(25%);
+    
         }
     .body h1{
         font-size: 20px;

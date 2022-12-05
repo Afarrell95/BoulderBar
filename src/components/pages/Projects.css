@@ -86,8 +86,8 @@ p{
     .proj:active{
         background-color: rgb(255, 255, 255);
     }
-}
-@media (max-width: 400px){
+}@media (max-width: 400px)
+{
 
     .proj-container{
         width: 70%;
@@ -97,7 +97,7 @@ p{
         margin-top: 20px;
         margin-bottom: 20px;
         padding:0;
-        transform: translateY(0%);
+        transform: translateY(7%);
         font-family: poppins,sans-serif;
     }
     
