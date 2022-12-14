@@ -11,6 +11,7 @@ import {
   MDBCol,
   MDBIcon,
 } from "mdb-react-ui-kit";
+import logo from "./imgs/cover.png";
 
 function Home({ currentPage, handlePageChange }) {
   return (
@@ -27,7 +28,7 @@ function Home({ currentPage, handlePageChange }) {
       <body className="home-body">
         <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
           <a className="navbar-brand" href="#">
-            Navbar
+            <img src={logo} style={{width:"150px", borderRadius: 5}}/>
           </a>
           <button
             className="navbar-toggler"
@@ -50,37 +51,20 @@ function Home({ currentPage, handlePageChange }) {
               </li>
               <li className="nav-item">
                 <a className="nav-link" href="#">
-                  Link
+                  something
                 </a>
               </li>
               <li className="nav-item dropdown">
-                <a
-                  className="nav-link dropdown-toggle"
-                  href="#"
-                  id="navbarDropdown"
-                  role="button"
-                  data-toggle="dropdown"
-                  aria-haspopup="true"
-                  aria-expanded="false"
-                >
-                  Dropdown
-                </a>
-                <div className="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <a className="dropdown-item" href="#">
-                    Action
-                  </a>
-                  <a className="dropdown-item" href="#">
-                    Another action
-                  </a>
-                  <div className="dropdown-divider"></div>
-                  <a className="dropdown-item" href="#">
-                    Something else here
-                  </a>
-                </div>
-              </li>
+    <a className="nav-link dropdown-toggle" data-toggle="dropdown" href="#">Dropdown</a>
+    <div className="dropdown-menu">
+      <a className="dropdown-item" href="#">Link 1</a>
+      <a className="dropdown-item" href="#">Link 2</a>
+      <a className="dropdown-item" href="#">Link 3</a>
+    </div>
+  </li>
               <li className="nav-item">
                 <a className="nav-link" href="#">
-                  Disabled
+                 Cart
                 </a>
               </li>
             </ul>
@@ -100,6 +84,55 @@ function Home({ currentPage, handlePageChange }) {
             </form>
           </div>
         </nav>
+        <nav class="navbar bg-light">
+<ul className="navbar-nav">
+  <li className="nav-item">
+    <a className="nav-link" href="#">Link 1</a>
+  </li>
+  <li className="nav-item">
+    <a className="nav-link" href="#">Link 2</a>
+  </li>
+  <li className="nav-item">
+    <a className="nav-link" href="#">Link 3</a>
+  </li>
+</ul>
+
+</nav>
+
+<div className="main-page-container">
+<div id="demo" className="carousel slide" data-ride="carousel" >
+
+
+<ul className="carousel-indicators">
+  <li data-target="#demo" data-slide-to="0" class="active"></li>
+  <li data-target="#demo" data-slide-to="1"></li>
+  <li data-target="#demo" data-slide-to="2"></li>
+</ul>
+
+
+<div className="carousel-inner">
+  <div className="carousel-item active">
+    <img src="https://images.unsplash.com/photo-1560412838-f0eaf1d23074?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1176&q=80"  alt=""/>
+  </div>
+  <div className="carousel-item">
+    <img src="https://images.unsplash.com/photo-1520443819063-a64183e22528?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"  alt=""/>
+  </div>
+  <div className="carousel-item">
+    <img src="https://images.unsplash.com/photo-1522362485439-83fcff4673f0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" alt=""/>
+  </div>
+</div>
+
+
+<a className="carousel-control-prev" href="#demo" data-slide="prev">
+  <span class="carousel-control-prev-icon"></span>
+</a>
+<a className="carousel-control-next" href="#demo" data-slide="next">
+  <span className="carousel-control-next-icon"></span>
+</a>
+
+</div>
+</div>
+        
 
         <MDBFooter
           bgColor="light"
