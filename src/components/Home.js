@@ -27,7 +27,7 @@ function Home({ currentPage, handlePageChange }) {
       </head>
 
       <body className="home-body">
-        <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+        <nav className="navbar navbar-expand-lg navbar-dark "style={{backgroundColor: "#55514D"}}>
           <a className="navbar-brand" href="#">
             <img src={logo} style={{ width: "150px", borderRadius: 5 }} />
           </a>
@@ -89,7 +89,8 @@ function Home({ currentPage, handlePageChange }) {
                 aria-label="Search"
               />
               <button
-                className="btn btn-outline-info my-2 my-sm-0"
+                className="btn btn-outline-light my-2 my-sm-0"
+                
                 type="submit"
               >
                 Search
@@ -118,16 +119,21 @@ function Home({ currentPage, handlePageChange }) {
         </nav>
 
         <div className="main-page-container">
-          <div className="main-content">
-            <h3>dfasdfasdfasdf</h3>
-            <p>fggdsfghdsfgdfgsdfgdsgsdfgdfsgsdfgsdfgdfgdfg</p>
-            <p>gfsbhngfdjhdgfjgdhjgfhjgfhjgfhjgfhjgfhjgfhjgh</p>
+          <div className="home-content-mission">
+            <h3>Our Mission</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,  Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
+          </div>
+          <div className="home-content-adds">
+            <h3>wooooo look at all this content</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
           </div>
         </div>
 
         <MDBFooter
           bgColor="light"
-          className="text-center text-lg-start text-muted fixed-bottom"
+          className="text-center text-lg-start text-muted" 
         >
           <section className="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
             <div className="me-5 d-none d-lg-block">
