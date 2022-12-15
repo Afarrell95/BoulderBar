@@ -12,6 +12,7 @@ import {
   MDBIcon,
 } from "mdb-react-ui-kit";
 import logo from "./imgs/cover.png";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 function Home({ currentPage, handlePageChange }) {
   return (
@@ -28,7 +29,7 @@ function Home({ currentPage, handlePageChange }) {
       <body className="home-body">
         <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
           <a className="navbar-brand" href="#">
-            <img src={logo} style={{width:"150px", borderRadius: 5}}/>
+            <img src={logo} style={{ width: "150px", borderRadius: 5 }} />
           </a>
           <button
             className="navbar-toggler"
@@ -55,16 +56,28 @@ function Home({ currentPage, handlePageChange }) {
                 </a>
               </li>
               <li className="nav-item dropdown">
-    <a className="nav-link dropdown-toggle" data-toggle="dropdown" href="#">Dropdown</a>
-    <div className="dropdown-menu">
-      <a className="dropdown-item" href="#">Link 1</a>
-      <a className="dropdown-item" href="#">Link 2</a>
-      <a className="dropdown-item" href="#">Link 3</a>
-    </div>
-  </li>
+                <a
+                  className="nav-link dropdown-toggle"
+                  data-toggle="dropdown"
+                  href="#"
+                >
+                  Dropdown
+                </a>
+                <div className="dropdown-menu">
+                  <a className="dropdown-item" href="#">
+                    Link 1
+                  </a>
+                  <a className="dropdown-item" href="#">
+                    Link 2
+                  </a>
+                  <a className="dropdown-item" href="#">
+                    Link 3
+                  </a>
+                </div>
+              </li>
               <li className="nav-item">
                 <a className="nav-link" href="#">
-                 Cart
+                  Cart
                 </a>
               </li>
             </ul>
@@ -84,59 +97,37 @@ function Home({ currentPage, handlePageChange }) {
             </form>
           </div>
         </nav>
-        <nav class="navbar bg-light">
-<ul className="navbar-nav">
-  <li className="nav-item">
-    <a className="nav-link" href="#">Link 1</a>
-  </li>
-  <li className="nav-item">
-    <a className="nav-link" href="#">Link 2</a>
-  </li>
-  <li className="nav-item">
-    <a className="nav-link" href="#">Link 3</a>
-  </li>
-</ul>
+        <nav class="navbar bg-light navbar-expand">
+          <ul className="navbar-nav">
+            <li className="nav-item">
+              <a className="nav-link" href="#">
+                Link 1
+              </a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link" href="#">
+                Link 2
+              </a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link" href="#">
+                Link 3
+              </a>
+            </li>
+          </ul>
+        </nav>
 
-</nav>
-
-<div className="main-page-container">
-<div id="demo" className="carousel slide" data-ride="carousel" >
-
-
-<ul className="carousel-indicators">
-  <li data-target="#demo" data-slide-to="0" class="active"></li>
-  <li data-target="#demo" data-slide-to="1"></li>
-  <li data-target="#demo" data-slide-to="2"></li>
-</ul>
-
-
-<div className="carousel-inner">
-  <div className="carousel-item active">
-    <img src="https://images.unsplash.com/photo-1560412838-f0eaf1d23074?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1176&q=80"  alt=""/>
-  </div>
-  <div className="carousel-item">
-    <img src="https://images.unsplash.com/photo-1520443819063-a64183e22528?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"  alt=""/>
-  </div>
-  <div className="carousel-item">
-    <img src="https://images.unsplash.com/photo-1522362485439-83fcff4673f0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" alt=""/>
-  </div>
-</div>
-
-
-<a className="carousel-control-prev" href="#demo" data-slide="prev">
-  <span class="carousel-control-prev-icon"></span>
-</a>
-<a className="carousel-control-next" href="#demo" data-slide="next">
-  <span className="carousel-control-next-icon"></span>
-</a>
-
-</div>
-</div>
-        
+        <div className="main-page-container">
+          <div className="main-content">
+            <h3>dfasdfasdfasdf</h3>
+            <p>fggdsfghdsfgdfgsdfgdsgsdfgdfsgsdfgsdfgdfgdfg</p>
+            <p>gfsbhngfdjhdgfjgdhjgfhjgfhjgfhjgfhjgfhjgfhjgh</p>
+          </div>
+        </div>
 
         <MDBFooter
           bgColor="light"
-          className="text-center text-lg-start text-muted"
+          className="text-center text-lg-start text-muted fixed-bottom"
         >
           <section className="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
             <div className="me-5 d-none d-lg-block">
@@ -166,64 +157,66 @@ function Home({ currentPage, handlePageChange }) {
           </section>
 
           <section className="">
-            <MDBContainer className="text-center text-md-start mt-5">
+            <MDBContainer className="text-center text-md-start mt-5 ">
               <MDBRow className="mt-3">
                 <MDBCol md="3" lg="4" xl="3" className="mx-auto mb-4">
                   <h6 className="text-uppercase fw-bold mb-4">
                     <MDBIcon icon="gem" className="me-3" />
-                    Company name
+                    Become A Member
                   </h6>
                   <p>
-                    Here you can use rows and columns to organize your footer
-                    content. Lorem ipsum dolor sit amet, consectetur adipisicing
-                    elit.
+                    Anyone can join and everyone belongs. Benefits include great
+                    gear offers, special pricing on events and an annual Member
+                    Reward
                   </p>
                 </MDBCol>
 
                 <MDBCol md="2" lg="2" xl="2" className="mx-auto mb-4">
-                  <h6 className="text-uppercase fw-bold mb-4">Products</h6>
+                  <h6 className="text-uppercase fw-bold mb-4">
+                    Orders & Returns
+                  </h6>
                   <p>
                     <a href="#!" className="text-reset">
-                      Angular
+                      Order Status
                     </a>
                   </p>
                   <p>
                     <a href="#!" className="text-reset">
-                      React
+                      Return Policy
                     </a>
                   </p>
                   <p>
                     <a href="#!" className="text-reset">
-                      Vue
+                      Return Instructions
                     </a>
                   </p>
                   <p>
                     <a href="#!" className="text-reset">
-                      Laravel
+                      Shipping Info
                     </a>
                   </p>
                 </MDBCol>
 
                 <MDBCol md="3" lg="2" xl="2" className="mx-auto mb-4">
-                  <h6 className="text-uppercase fw-bold mb-4">Useful links</h6>
+                  <h6 className="text-uppercase fw-bold mb-4">Work With Us</h6>
                   <p>
                     <a href="#!" className="text-reset">
-                      Pricing
+                      Jobs and Careers
                     </a>
                   </p>
                   <p>
                     <a href="#!" className="text-reset">
-                      Settings
+                      Sell at Boulder Bar
                     </a>
                   </p>
                   <p>
                     <a href="#!" className="text-reset">
-                      Orders
+                      Affiliate Program
                     </a>
                   </p>
                   <p>
                     <a href="#!" className="text-reset">
-                      Help
+                      Culture
                     </a>
                   </p>
                 </MDBCol>
@@ -232,17 +225,14 @@ function Home({ currentPage, handlePageChange }) {
                   <h6 className="text-uppercase fw-bold mb-4">Contact</h6>
                   <p>
                     <MDBIcon icon="home" className="me-2" />
-                    New York, NY 10012, US
+                    Electric Ave, NJ 123987, US
                   </p>
                   <p>
                     <MDBIcon icon="envelope" className="me-3" />
-                    info@example.com
+                    boulderbar@example.com
                   </p>
                   <p>
-                    <MDBIcon icon="phone" className="me-3" /> + 01 234 567 88
-                  </p>
-                  <p>
-                    <MDBIcon icon="print" className="me-3" /> + 01 234 567 89
+                    <MDBIcon icon="phone" className="me-3" /> + 01 856 867 5309
                   </p>
                 </MDBCol>
               </MDBRow>
@@ -253,9 +243,9 @@ function Home({ currentPage, handlePageChange }) {
             className="text-center p-4"
             style={{ backgroundColor: "rgba(0, 0, 0, 0.05)" }}
           >
-            © 2021 Copyright:
-            <a className="text-reset fw-bold" href="https://mdbootstrap.com/">
-              MDBootstrap.com
+            © 2022 Copyright:
+            <a className="text-reset" href="https://mdbootstrap.com/">
+              BoulderBar.com
             </a>
           </div>
         </MDBFooter>
