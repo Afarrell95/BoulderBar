@@ -27,7 +27,10 @@ function Home({ currentPage, handlePageChange }) {
       </head>
 
       <body className="home-body">
-        <nav className="navbar navbar-expand-lg navbar-dark "style={{backgroundColor: "#55514D"}}>
+        <nav
+          className="navbar navbar-expand-lg navbar-dark "
+          style={{ backgroundColor: "#594545" }}
+        >
           <a className="navbar-brand" href="#">
             <img src={logo} style={{ width: "150px", borderRadius: 5 }} />
           </a>
@@ -52,10 +55,10 @@ function Home({ currentPage, handlePageChange }) {
               </li>
               <li className="nav-item">
                 <a className="nav-link" href="#">
-                  something
+                  Profile
                 </a>
               </li>
-              <li className="nav-item dropdown">
+              {/* <li className="nav-item dropdown">
                 <a
                   className="nav-link dropdown-toggle"
                   data-toggle="dropdown"
@@ -74,10 +77,16 @@ function Home({ currentPage, handlePageChange }) {
                     Link 3
                   </a>
                 </div>
-              </li>
+              </li> */}
               <li className="nav-item">
                 <a className="nav-link" href="#">
-                  Cart
+                  Shopping cart{" "}
+                  <img
+                    classNmae="cart-img"
+                    src="https://www.freepnglogos.com/uploads/shopping-cart-png/shopping-cart-royal-brites-poster-foam-board-photo-paper-royal-lace-19.png"
+                    alt="cart img"
+                    style={{ width: "23px" }}
+                  />
                 </a>
               </li>
             </ul>
@@ -90,7 +99,6 @@ function Home({ currentPage, handlePageChange }) {
               />
               <button
                 className="btn btn-outline-light my-2 my-sm-0"
-                
                 type="submit"
               >
                 Search
@@ -98,7 +106,10 @@ function Home({ currentPage, handlePageChange }) {
             </form>
           </div>
         </nav>
-        <nav class="navbar bg-light navbar-expand">
+        <nav
+          class="navbar navbar-dark navbar-expand"
+          style={{ backgroundColor: "#9E7676", borderRadius: "0 0 5px 15px" }}
+        >
           <ul className="navbar-nav">
             <li className="nav-item">
               <a className="nav-link" href="#">
@@ -121,43 +132,88 @@ function Home({ currentPage, handlePageChange }) {
         <div className="main-page-container">
           <div className="home-content-mission">
             <h3>Our Mission</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,  Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, Ut enim
+              ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+              aliquip ex ea commodo consequat. Duis aute irure dolor in
+              reprehenderit in voluptate velit esse cillum dolore eu fugiat
+              nulla pariatur.
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, Ut enim
+              ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+              aliquip ex ea commodo consequat. Duis aute irure dolor in
+              reprehenderit in voluptate velit esse cillum dolore eu fugiat
+              nulla pariatur.{" "}
+            </p>
           </div>
           <div className="home-content-adds">
             <h3>wooooo look at all this content</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+              reprehenderit in voluptate velit esse cillum dolore eu fugiat
+              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+              sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+              reprehenderit in voluptate velit esse cillum dolore eu fugiat
+              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+              sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
           </div>
         </div>
 
         <MDBFooter
           bgColor="light"
-          className="text-center text-lg-start text-muted" 
+          className="text-center text-lg-start text-muted"
         >
-          <section className="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+          <section className="d-flex justify-content-center p-4 border-bottom">
             <div className="me-5 d-none d-lg-block">
-              <span>Get connected with us on social networks:</span>
+              <span>Check us out on our social networks:</span>
             </div>
 
             <div>
               <a href="" className="me-4 text-reset">
-                <MDBIcon fab icon="facebook-f" />
+                <img
+                  src="https://seeklogo.com/images/F/facebook-logo-966BBFBC34-seeklogo.com.png"
+                  alt="facebook logo"
+                  style={{ width: "30px" }}
+                />
               </a>
               <a href="" className="me-4 text-reset">
-                <MDBIcon fab icon="twitter" />
+                <img
+                  src="https://seeklogo.com/images/I/instagram-new-2016-logo-4773FE3F99-seeklogo.com.png"
+                  alt="instagram logo"
+                  style={{ width: "30px" }}
+                />
               </a>
               <a href="" className="me-4 text-reset">
-                <MDBIcon fab icon="google" />
+                <img
+                  src="https://seeklogo.com/images/T/twitter-icon-circle-blue-logo-94339974C6-seeklogo.com.png"
+                  alt="twitter logo"
+                  style={{ width: "30px" }}
+                />
               </a>
               <a href="" className="me-4 text-reset">
-                <MDBIcon fab icon="instagram" />
+                <img
+                  src="https://seeklogo.com/images/Y/youtube-2017-icon-logo-D1FE045118-seeklogo.com.png"
+                  alt="youtube logo"
+                  style={{ width: "30px" }}
+                />
               </a>
               <a href="" className="me-4 text-reset">
-                <MDBIcon fab icon="linkedin" />
-              </a>
-              <a href="" className="me-4 text-reset">
-                <MDBIcon fab icon="github" />
+                <img
+                  src="https://seeklogo.com/images/T/tiktok-app-icon-logo-0F5AD7AE01-seeklogo.com.png"
+                  alt="tik tok logo"
+                  style={{ width: "30px" }}
+                />
               </a>
             </div>
           </section>
@@ -247,7 +303,7 @@ function Home({ currentPage, handlePageChange }) {
 
           <div
             className="text-center p-4"
-            style={{ backgroundColor: "rgba(0, 0, 0, 0.05)" }}
+            style={{ backgroundColor: "#594545", color: "white" }}
           >
             © 2022 Copyright:
             <a className="text-reset" href="https://mdbootstrap.com/">

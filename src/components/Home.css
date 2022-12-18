@@ -12,9 +12,10 @@ body{
 .home-content-mission{
     width: 15%;
     margin-top:3%;
+    margin-bottom: 2%;
     padding: 10px;
-    
-    background-color: rgb(249, 250, 218);
+    border-radius: 5px;
+    background-color: #FFF8EA;
     left: 0;
     /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
 }
@@ -26,5 +27,8 @@ body{
     margin-top:3%;
     border-radius: 5px;
     margin-left: 3%;
-    background-color: rgb(166, 165, 160);
+    background-color: #FFF8EA;
+    ;
 }
+
+/*create moble responsiveness. make text containers stack on top of eachother*/
