@@ -5,7 +5,7 @@ import Train from "./pages/train";
 import Crash from "./pages/crash";
 import "./Home.css";
 import { Link } from "react-router-dom";
-import React, { useState, useEffect } from "react";
+
 import {
   MDBFooter,
   MDBContainer,
@@ -13,10 +13,10 @@ import {
   MDBCol,
   MDBIcon,
 } from "mdb-react-ui-kit";
-import logo from "./imgs/cover.png";
+
 import "bootstrap/dist/css/bootstrap.min.css";
 
-function Home({ currentPage, handlePageChange }) {
+function Home() {
   return (
     <div>
       <head>
@@ -29,7 +29,7 @@ function Home({ currentPage, handlePageChange }) {
       </head>
 
       <body className="home-body">
-        <nav
+        {/* <nav
           className="navbar navbar-expand-lg navbar-dark "
           style={{ backgroundColor: "#594545" }}
         >
@@ -60,26 +60,7 @@ function Home({ currentPage, handlePageChange }) {
                   Profile
                 </a>
               </li>
-              {/* <li className="nav-item dropdown">
-                <a
-                  className="nav-link dropdown-toggle"
-                  data-toggle="dropdown"
-                  href="#"
-                >
-                  Dropdown
-                </a>
-                <div className="dropdown-menu">
-                  <a className="dropdown-item" href="#">
-                    Link 1
-                  </a>
-                  <a className="dropdown-item" href="#">
-                    Link 2
-                  </a>
-                  <a className="dropdown-item" href="#">
-                    Link 3
-                  </a>
-                </div>
-              </li> */}
+            
               <li className="nav-item">
                 <a className="nav-link" href="#">
                   Shopping cart{" "}
@@ -141,7 +122,7 @@ function Home({ currentPage, handlePageChange }) {
               </a>
             </li>
           </ul>
-        </nav>
+        </nav> */}
 
         <div className="main-page-container">
           <div className="home-content-mission">
@@ -183,7 +164,7 @@ function Home({ currentPage, handlePageChange }) {
             </p>
           </div>
         </div>
-
+{/* 
         <MDBFooter
           bgColor="light"
           className="text-center text-lg-start text-muted"
@@ -324,7 +305,7 @@ function Home({ currentPage, handlePageChange }) {
               BoulderBar.com
             </a>
           </div>
-        </MDBFooter>
+        </MDBFooter> */}
       </body>
     </div>
   );

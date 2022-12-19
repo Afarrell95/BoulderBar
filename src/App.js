@@ -1,4 +1,6 @@
 import React from "react";
+import Navbar from "./components/pages/nav"
+import Footer from "./components/pages/footer"
 import Shoes from "./components/pages/shoes";
 import Chalk from "./components/pages/chalk";
 import Clothes from "./components/pages/clothes"
@@ -10,6 +12,9 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 const App = () => {
     return (
       <Router>
+        <div>
+        <Navbar />
+      </div>
         <Routes>
           <Route path="/Portfolio" element={<Home />}>
             <Route path="shoes" element={<Shoes />} />
@@ -19,6 +24,10 @@ const App = () => {
             <Route path="clothes" element={<Clothes />} />
           </Route>
         </Routes>
+        <div>
+        
+        <Footer />
+      </div>
       </Router>
     );
   }
