@@ -1,5 +1,5 @@
 import React from "react";
-import "./Projects.css";
+import "./shoes.css";
 
 export default function Home() {
   return (

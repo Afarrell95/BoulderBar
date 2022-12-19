@@ -1,7 +1,8 @@
-import Projects from "./pages/Projects";
-import PortfolioContainer from "./PortfolioContainer";
-import About from "./pages/About";
-import Contact from "./pages/Contact";
+import Shoes from "./pages/shoes";
+import Chalk from "./pages/chalk";
+import Clothes from "./pages/clothes"
+import Train from "./pages/train";
+import Crash from "./pages/crash";
 import "./Home.css";
 import React, { useState, useEffect } from "react";
 import {
@@ -50,7 +51,7 @@ function Home({ currentPage, handlePageChange }) {
             <ul className="navbar-nav mr-auto">
               <li className="nav-item active">
                 <a className="nav-link" href="#">
-                  Home <span class="sr-only">(current)</span>
+                <Link to="/">Home</Link> 
                 </a>
               </li>
               <li className="nav-item">
@@ -110,20 +111,32 @@ function Home({ currentPage, handlePageChange }) {
           class="navbar navbar-dark navbar-expand"
           style={{ backgroundColor: "#9E7676", borderRadius: "0 0 5px 15px" }}
         >
+          <span>shop by category</span>
           <ul className="navbar-nav">
+        
             <li className="nav-item">
               <a className="nav-link" href="#">
-                Link 1
+              <Link to="/shoes">shoes</Link>
               </a>
             </li>
             <li className="nav-item">
               <a className="nav-link" href="#">
-                Link 2
+              <Link to="/crash">crash pads</Link>
               </a>
             </li>
             <li className="nav-item">
               <a className="nav-link" href="#">
-                Link 3
+              <Link to="/clothes">clothes</Link>
+              </a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link" href="#">
+              <Link to="/chalk">chalk & acessories</Link>
+              </a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link" href="#">
+              <Link to="/train">training equipment</Link>
               </a>
             </li>
           </ul>
