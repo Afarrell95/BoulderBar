@@ -31,8 +31,11 @@ body{
     ;
 }
 
-.a{
-    list-style: none;
+a:link {
+    color: rgb(233, 233, 225);
+ }
+ 
+ a:hover {
+    color: #ffffff;
 }
-
 /*create moble responsiveness. make text containers stack on top of eachother*/
