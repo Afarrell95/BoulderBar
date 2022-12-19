@@ -31,4 +31,8 @@ body{
     ;
 }
 
+.a{
+    list-style: none;
+}
+
 /*create moble responsiveness. make text containers stack on top of eachother*/

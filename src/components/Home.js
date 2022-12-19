@@ -4,6 +4,7 @@ import Clothes from "./pages/clothes"
 import Train from "./pages/train";
 import Crash from "./pages/crash";
 import "./Home.css";
+import { Link } from "react-router-dom";
 import React, { useState, useEffect } from "react";
 import {
   MDBFooter,

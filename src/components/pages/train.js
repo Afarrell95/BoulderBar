@@ -4,7 +4,7 @@ import "./train.css";
 
 
 
-export default function About() {
+export default function Train() {
   return (
     <div>
       <body className="about-body">
