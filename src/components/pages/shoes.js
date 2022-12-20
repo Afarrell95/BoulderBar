@@ -4,9 +4,7 @@ import "./shoes.css";
 export default function Shoes() {
   return (
     <div>
-      <body>
-       
-      </body>
+      <h3>Shoes</h3>
     </div>
   );
 }
