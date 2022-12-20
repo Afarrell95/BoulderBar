@@ -1,4 +1,4 @@
-# Portfolio
+# BoulderBar
 
 ## Table of Contents
 
@@ -6,7 +6,7 @@
 
 ## description
 
-This project is a personal portfolio created with React! Users will be able to go though different pages such as my About me page, Contact, resume, and the home page.
+This project is a mock ecommerce website for the buying and selling of bouldering equipment. Created with React, Bootstrap, CSS, and HTML.
 
 ## installation
 
