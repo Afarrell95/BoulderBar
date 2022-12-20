@@ -59,12 +59,7 @@ function Navbar() {
               <li className="nav-item">
                 <a className="nav-link" href="#">
                   Shopping cart{" "}
-                  <img
-                    classNmae="cart-img"
-                    src="https://www.freepnglogos.com/uploads/shopping-cart-png/shopping-cart-royal-brites-poster-foam-board-photo-paper-royal-lace-19.png"
-                    alt="cart img"
-                    style={{ width: "23px" }}
-                  />
+                
                 </a>
               </li>
             </ul>

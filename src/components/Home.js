@@ -5,6 +5,8 @@ import Train from "./pages/train";
 import Crash from "./pages/crash";
 import "./Home.css";
 import { Link } from "react-router-dom";
+import "react-responsive-carousel/lib/styles/carousel.min.css"; 
+import { Carousel } from 'react-responsive-carousel';
 
 import {
   MDBFooter,
@@ -50,7 +52,21 @@ function Home() {
             </p>
           </div>
           <div className="home-content-adds">
-           something something something maybe carosuel or whatever idk how to spell it
+            <h3>Great gear. Better prices</h3>
+          <Carousel>
+                <div>
+                    <img src="https://images.unsplash.com/photo-1522362485439-83fcff4673f0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" />
+                    
+                </div>
+                <div>
+                    <img src="https://images.unsplash.com/photo-1557851031-0b7caefbdead?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80" />
+                   
+                </div>
+                <div>
+                    <img src="https://images.unsplash.com/photo-1478827227954-745b0daf2534?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80" />
+                    
+                </div>
+            </Carousel>
           </div>
         </div>
 
