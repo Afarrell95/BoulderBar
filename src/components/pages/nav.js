@@ -3,6 +3,7 @@ import Chalk from "./chalk";
 import Clothes from "./clothes"
 import Train from "./train";
 import Crash from "./crash";
+import "./nav.css";
 import { Link } from "react-router-dom";
 import {
   MDBFooter,
